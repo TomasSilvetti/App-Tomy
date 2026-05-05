@@ -1,0 +1,16 @@
+# Python (cache de skills)
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Env (por si aparece en raiz)
+.env
+.env.local
