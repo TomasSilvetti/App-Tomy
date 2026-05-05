@@ -38,7 +38,13 @@
       "Bash(git checkout *)",
       "Bash(git check-ignore *)",
       "Bash(git reset *)",
-      "Bash(git rm *)"
+      "Bash(git rm *)",
+      "Bash(git push *)",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" http://localhost:3000/api/preguntas)",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" -X POST http://localhost:3000/api/preguntas -H \"Content-Type: application/json\" -d '{\"title\":\"Test pregunta\",\"reminderEnabled\":false}')",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" -X POST http://localhost:3000/api/preguntas/cmot4f1bn0000p4cx3aitpv9j/respuestas -H \"Content-Type: application/json\" -d '{\"text\":\"Mi primera respuesta\"}')",
+      "Bash(curl -s http://localhost:3000/api/preguntas)",
+      "Bash(curl -s -w \"\\\\nHTTP %{http_code}\\\\n\" -X DELETE http://localhost:3000/api/preguntas/cmot4f1bn0000p4cx3aitpv9j)"
     ],
     "additionalDirectories": [
       "c:\\Users\\tomas\\Documents\\Proyectos\\App-Turnos\\app-turnos\\docs",
